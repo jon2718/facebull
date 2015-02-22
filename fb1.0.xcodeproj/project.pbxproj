@@ -1,0 +1,192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* containertest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = containertest.1; sourceTree = "<group>"; };
+		FC02291D112782090029BFB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FC060C6F1135A53400ABCD90 /* edmonds_optimum_branching_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = edmonds_optimum_branching_impl.hpp; sourceTree = "<group>"; };
+		FC060C701135A53400ABCD90 /* edmonds_optimum_branching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = edmonds_optimum_branching.hpp; sourceTree = "<group>"; };
+		FC184446112DDA53000D1947 /* stl_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl_helpers.h; sourceTree = "<group>"; };
+		FC184447112DDA53000D1947 /* stl_helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stl_helpers.cpp; sourceTree = "<group>"; };
+		FC4B9BD911317D0D00952134 /* vector_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector_helper.h; sourceTree = "<group>"; };
+		FC4B9BDA11317D0D00952134 /* vector_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector_helper.cpp; sourceTree = "<group>"; };
+		FC638B9E1141876E0095F8A2 /* dfs_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfs_helpers.h; sourceTree = "<group>"; };
+		FCB6C72E113C513500E7CB34 /* edge_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edge_helper.h; sourceTree = "<group>"; };
+		FCB6C72F113C513500E7CB34 /* edge_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = edge_helper.cpp; sourceTree = "<group>"; };
+		FCE7C28E1138455400291C74 /* graph_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph_def.h; sourceTree = "<group>"; };
+		FCF2F4431129D0B5006759E6 /* partitions_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = partitions_list.cpp; sourceTree = "<group>"; };
+		FCF2F4441129D0B5006759E6 /* partitions_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partitions_list.h; sourceTree = "<group>"; };
+		FCF2F45F1129D36F006759E6 /* partitions_list_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partitions_list_test.h; sourceTree = "<group>"; };
+		FCF2F4601129D36F006759E6 /* partitions_list_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = partitions_list_test.cpp; sourceTree = "<group>"; };
+		FCF45F721144C63E00C64DB6 /* combination_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = combination_helpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* containertest */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = containertest;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FC02291D112782090029BFB9 /* Makefile */,
+				FC638B9E1141876E0095F8A2 /* dfs_helpers.h */,
+				FC060C6F1135A53400ABCD90 /* edmonds_optimum_branching_impl.hpp */,
+				FC060C701135A53400ABCD90 /* edmonds_optimum_branching.hpp */,
+				FC184447112DDA53000D1947 /* stl_helpers.cpp */,
+				FC184446112DDA53000D1947 /* stl_helpers.h */,
+				FCF2F4441129D0B5006759E6 /* partitions_list.h */,
+				FCF2F4431129D0B5006759E6 /* partitions_list.cpp */,
+				FCE7C28E1138455400291C74 /* graph_def.h */,
+				FCF2F45F1129D36F006759E6 /* partitions_list_test.h */,
+				FCF2F4601129D36F006759E6 /* partitions_list_test.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				FCF45F721144C63E00C64DB6 /* combination_helpers.h */,
+				FC4B9BD911317D0D00952134 /* vector_helper.h */,
+				FC4B9BDA11317D0D00952134 /* vector_helper.cpp */,
+				FCB6C72E113C513500E7CB34 /* edge_helper.h */,
+				FCB6C72F113C513500E7CB34 /* edge_helper.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* containertest.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FC022934112782B10029BFB9 /* Makefile */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FC022941112782EF0029BFB9 /* Build configuration list for PBXLegacyTarget "Makefile" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = Makefile;
+			passBuildSettingsInEnvironment = 1;
+			productName = Makefile;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "fb1.0" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* containertest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC022934112782B10029BFB9 /* Makefile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		FC022935112782B10029BFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Makefile;
+			};
+			name = Debug;
+		};
+		FC022936112782B10029BFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Makefile;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "fb1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC022941112782EF0029BFB9 /* Build configuration list for PBXLegacyTarget "Makefile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC022935112782B10029BFB9 /* Debug */,
+				FC022936112782B10029BFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
